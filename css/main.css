@@ -1,3 +1,9 @@
+@keyframes disappear {
+  0% {transform: translateY(0); opacity: 0;}
+  50% {transform: translateY(-200); opacity: 1;}
+  100% {transform: translateY(0); opacity: 0;}   
+}
+
 html, body {
     text-align: center;
     background-color: black;
@@ -55,10 +61,39 @@ div #paragraph {
   position: absolute; left: 100px; bottom: 180px;
 }
 
+#L14, #L10 {
+  fill:#77b255;
+}
+
+#L12 {
+  fill:#ffcc4d;
+}
+
+#L12:hover {
+  fill:green
+}
+
+#L8 {
+  fill:#5c913b;
+}
+
+#L14:hover {
+  fill:#ffcc4d;
+}
+
+#L8:hover {
+  fill:#77b255;
+}
+
 /* PINEAPPLE */
 
 #Pineapple {
   position: absolute; left: 325px; bottom: 170px;
+}
+
+#Pineapple:hover {
+  rotate: 180deg;
+  transition: all 0.5s ease;
 }
 
 /* ORANGE */
@@ -67,10 +102,26 @@ div #paragraph {
   position: absolute; left: 600px; bottom: 160px;
 }
 
+#Orange:hover {
+  animation-name: disappear;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
 /* GRAPEFRUIT */
+
+#Cut {
+  position: absolute; left: 863px; bottom: 161px;
+}
 
 #Grapefruit {
   position: absolute; left: 825px; bottom: 155px;
+  transition: all 0.5s ease;
+}
+
+#Grapefruit:hover {
+  opacity: 0%;
 }
 
 /* FACEBOOK */
