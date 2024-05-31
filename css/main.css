@@ -25,11 +25,10 @@ div #paragraph {
 
 #bkground3 {
   background-color: white;
-  justify-content: center;
-  text-align: center;
   width: 1600px;
   height: 425px;
   padding: 1px;
+  vertical-align: middle;
   margin: 0 auto;
 }
 
@@ -48,4 +47,40 @@ div #paragraph {
   width: 1600px;
   padding: 1px;
   margin: 50px auto 0px;
+}
+
+/* LEMON */
+
+#Lemon {
+  position: absolute; left: 100px; bottom: 180px;
+}
+
+/* PINEAPPLE */
+
+#Pineapple {
+  position: absolute; left: 325px; bottom: 170px;
+}
+
+/* ORANGE */
+
+#Orange {
+  position: absolute; left: 600px; bottom: 160px;
+}
+
+/* GRAPEFRUIT */
+
+#Grapefruit {
+  position: absolute; left: 825px; bottom: 155px;
+}
+
+/* FACEBOOK */
+
+#Facebook {
+  position: absolute; left: 1125px; bottom: 175px;
+}
+
+/* INSTAGRAM */
+
+#Instagram {
+  position: absolute; left: 1375px; bottom: 160px;
 }
