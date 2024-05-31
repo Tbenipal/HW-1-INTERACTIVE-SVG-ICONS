@@ -130,8 +130,26 @@ div #paragraph {
   position: absolute; left: 1125px; bottom: 175px;
 }
 
+#F2 {
+  fill: #4460A0;
+  transition: all 2s ease-out;
+}
+
+#F2:hover {
+  fill: black;
+}
+
+
+
 /* INSTAGRAM */
 
 #Instagram {
   position: absolute; left: 1375px; bottom: 160px;
+}
+
+#Instagram:hover {
+  width: 200px;
+  height: 200px;
+  position: absolute; left: 1375px; bottom: 175px;
+
 }
