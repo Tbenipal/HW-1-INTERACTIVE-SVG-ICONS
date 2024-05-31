@@ -1,0 +1,51 @@
+html, body {
+    text-align: center;
+    background-color: black;
+}
+
+div h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  font-style: normal;
+  color: black;
+  opacity: 50%;
+}
+
+div #paragraph {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  font-size: 26px;
+  margin: 0px auto;
+  max-width: 768px;
+  font-style: normal;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#bkground3 {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  width: 1600px;
+  height: 425px;
+  padding: 1px;
+  margin: 0 auto;
+}
+
+#bkground2 {
+  background-color: blue;
+  text-align: center;
+  width: 1600px;
+  padding: 1px;
+  margin: 0 auto;
+}
+
+#bkground {
+  background-color: yellow;
+  justify-content: center;
+  text-align: center;
+  width: 1600px;
+  padding: 1px;
+  margin: 50px auto 0px;
+}
