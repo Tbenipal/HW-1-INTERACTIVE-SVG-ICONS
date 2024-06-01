@@ -7,12 +7,19 @@
 html, body {
     text-align: center;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+  margin: 0 auto;
 }
 
 div h1 {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 32px;
   font-style: normal;
   color: black;
   opacity: 50%;
@@ -20,19 +27,22 @@ div h1 {
 
 div #paragraph {
   font-family: "Roboto Condensed", sans-serif;
-  text-align: left;
-  font-size: 26px;
-  margin: 25px auto;
+  text-align: center;
+  font-size: 16px;
   max-width: 768px;
   font-style: normal;
   color: white;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 #bkground3 {
   background-color: white;
-  width: 1600px;
-  height: 425px;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 590px;
   padding: 1px;
   vertical-align: middle;
   margin: 0 auto;
@@ -41,7 +51,7 @@ div #paragraph {
 #bkground2 {
   background-color: blue;
   text-align: center;
-  width: 1600px;
+  width: 400px;
   padding: 1px;
   margin: 0 auto;
 }
@@ -50,15 +60,18 @@ div #paragraph {
   background-color: yellow;
   justify-content: center;
   text-align: center;
-  width: 1600px;
+  width: 400px;
   padding: 1px;
-  margin: 50px auto 0px;
+  margin: 40px auto 0px;
 }
 
 /* LEMON */
-
+  
 #Lemon {
-  position: absolute; left: 100px; bottom: 180px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute; left: 75px; bottom: 380px;
 }
 
 #L14, #L10 {
@@ -88,7 +101,10 @@ div #paragraph {
 /* PINEAPPLE */
 
 #Pineapple {
-  position: absolute; left: 325px; bottom: 170px;
+  width: 185px;
+  height: 185px;
+  margin: 0 auto;
+  position: absolute; left: 240px; bottom: 380px;
 }
 
 #Pineapple:hover {
@@ -99,7 +115,10 @@ div #paragraph {
 /* ORANGE */
 
 #Orange {
-  position: absolute; left: 600px; bottom: 160px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute; left: 85px; bottom: 200px;
 }
 
 #Orange:hover {
@@ -112,11 +131,17 @@ div #paragraph {
 /* GRAPEFRUIT */
 
 #Cut {
-  position: absolute; left: 863px; bottom: 161px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute; left: 265px; bottom: 170px;
 }
 
 #Grapefruit {
-  position: absolute; left: 825px; bottom: 155px;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  position: absolute; left: 230px; bottom: 160px;
   transition: all 0.5s ease;
 }
 
@@ -127,7 +152,10 @@ div #paragraph {
 /* FACEBOOK */
 
 #Facebook {
-  position: absolute; left: 1125px; bottom: 175px;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  position: absolute; left: 100px; bottom: 20px;
 }
 
 #F2 {
@@ -144,12 +172,344 @@ div #paragraph {
 /* INSTAGRAM */
 
 #Instagram {
-  position: absolute; left: 1375px; bottom: 160px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute; left: 265px; bottom: 10px;
 }
 
 #Instagram:hover {
-  width: 200px;
-  height: 200px;
-  position: absolute; left: 1385px; bottom: 175px;
+  width: 125px;
+  height: 125px;
+  position: absolute; left: 275px; bottom: 17px;
 
+}
+
+
+/* Tablet Grid */
+@media screen and (min-width: 768px) {
+
+  div h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    color: black;
+    opacity: 50%;
+  }
+
+  div #paragraph {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    max-width: 768px;
+    font-style: normal;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  
+  #bkground3 {
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    padding: 1px;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  
+  #bkground2 {
+    background-color: blue;
+    text-align: center;
+    width: 700px;
+    padding: 1px;
+    margin: 0 auto;
+  }
+  
+  #bkground {
+    background-color: yellow;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    padding: 1px;
+    margin: 35px auto 0px;
+  }
+  
+  /* LEMON */
+  
+  #Lemon {
+    width: 175px;
+    height: 175px;
+    position: absolute; left: 75px; bottom: 325px;
+  }
+  
+  #L14, #L10 {
+    fill:#77b255;
+  }
+  
+  #L12 {
+    fill:#ffcc4d;
+  }
+  
+  #L12:hover {
+    fill:green
+  }
+  
+  #L8 {
+    fill:#5c913b;
+  }
+  
+  #L14:hover {
+    fill:#ffcc4d;
+  }
+  
+  #L8:hover {
+    fill:#77b255;
+  }
+  
+  /* PINEAPPLE */
+  
+  #Pineapple {
+    width: 210px;
+    height: 210px;
+    position: absolute; left: 275px; bottom: 315px;
+  }
+  
+  #Pineapple:hover {
+    rotate: 180deg;
+    transition: all 0.5s ease;
+  }
+  
+  /* ORANGE */
+  
+  #Orange {
+    width: 175px;
+    height: 175px;
+    position: absolute; left: 520px; bottom: 305px;
+  }
+  
+  #Orange:hover {
+    animation-name: disappear;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+  
+  /* GRAPEFRUIT */
+  
+  #Cut {
+    width: 175px;
+    height: 175px;
+    position: absolute; left: 95px; bottom: 80px;
+
+  }
+  
+  #Grapefruit {
+    width: 250px;
+    height: 250px;
+    position: absolute; left: 58px; bottom: 70px;
+    transition: all 0.5s ease;
+  }
+  
+  #Grapefruit:hover {
+    opacity: 0%;
+  }
+  
+  /* FACEBOOK */
+  
+  #Facebook {
+    width: 150px;
+    height: 150px;
+    position: absolute; left: 315px; bottom: 95px;
+  }
+  
+  #F2 {
+    fill: #4460A0;
+    transition: all 2s ease-out;
+  }
+  
+  #F2:hover {
+    fill: black;
+  }
+  
+  
+  
+  /* INSTAGRAM */
+  
+  #Instagram {
+    width: 175px;
+    height: 175px;
+    position: absolute; left: 515px; bottom: 80px;
+  }
+  
+  #Instagram:hover {
+    width: 150px;
+    height: 150px;
+    position: absolute; left: 525px; bottom: 90px;
+  
+  }
+}
+
+/* Desktop Grid */
+@media screen and (min-width: 1200px) {
+
+  div h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    color: black;
+    opacity: 50%;
+  }
+
+  div #paragraph {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    font-size: 26px;
+    margin: 25px auto;
+    max-width: 768px;
+    font-style: normal;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  #bkground3 {
+    background-color: white;
+    width: 1600px;
+    height: 425px;
+    padding: 1px;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  
+  #bkground2 {
+    background-color: blue;
+    text-align: center;
+    width: 1600px;
+    padding: 1px;
+    margin: 0 auto;
+  }
+  
+  #bkground {
+    background-color: yellow;
+    justify-content: center;
+    text-align: center;
+    width: 1600px;
+    padding: 1px;
+    margin: 50px auto 0px;
+  }
+  
+  /* LEMON */
+  
+  #Lemon {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 100px; bottom: 180px;
+  }
+  
+  #L14, #L10 {
+    fill:#77b255;
+  }
+  
+  #L12 {
+    fill:#ffcc4d;
+  }
+  
+  #L12:hover {
+    fill:green
+  }
+  
+  #L8 {
+    fill:#5c913b;
+  }
+  
+  #L14:hover {
+    fill:#ffcc4d;
+  }
+  
+  #L8:hover {
+    fill:#77b255;
+  }
+  
+  /* PINEAPPLE */
+  
+  #Pineapple {
+    width: 250px;
+    height: 250px;
+    position: absolute; left: 325px; bottom: 170px;
+  }
+  
+  #Pineapple:hover {
+    rotate: 180deg;
+    transition: all 0.5s ease;
+  }
+  
+  /* ORANGE */
+  
+  #Orange {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 600px; bottom: 160px;
+  }
+  
+  #Orange:hover {
+    animation-name: disappear;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+  
+  /* GRAPEFRUIT */
+  
+  #Cut {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 863px; bottom: 161px;
+  }
+  
+  #Grapefruit {
+    width: 275px;
+    height: 275px;
+    position: absolute; left: 825px; bottom: 155px;
+    transition: all 0.5s ease;
+  }
+  
+  #Grapefruit:hover {
+    opacity: 0%;
+  }
+  
+  /* FACEBOOK */
+  
+  #Facebook {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 1125px; bottom: 175px;
+  }
+  
+  #F2 {
+    fill: #4460A0;
+    transition: all 2s ease-out;
+  }
+  
+  #F2:hover {
+    fill: black;
+  }
+  
+  
+  
+  /* INSTAGRAM */
+  
+  #Instagram {
+    width: 225px;
+    height: 225px;
+    position: absolute; left: 1375px; bottom: 160px;
+  }
+  
+  #Instagram:hover {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 1385px; bottom: 175px;
+  
+  }
 }
